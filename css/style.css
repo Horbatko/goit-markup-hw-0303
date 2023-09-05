@@ -1,0 +1,240 @@
+body{
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    
+}
+
+  /*HEADER*/
+
+.nav-title{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:#2E2F42;
+    font-family:"Raleway", sans-serif;  
+    font-weight: 700; 
+    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+span{
+    color: #2E2F42;
+}
+
+a{
+    color:#2E2F42;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.nav-li-a{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.nav-li-a:hover{
+    color:#404bbf
+}
+
+.nav-li-a:focus{
+    color: #404bbf 
+}
+
+.addr{
+    font-style: normal;
+}
+
+.addr-li-a{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.addr-li-a:hover{
+    color: #404bbf;
+}
+
+.addr-li-a:focus{
+    color: #404bbf;
+}
+
+  /*SECTION 1*/
+
+.sect_one{
+    background-color: #2E2F42;
+}
+
+.sect_one-title{
+    font-size: 56px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.sect_one-button{
+    background-color: #4D5AE5;
+    color: #ffff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.sect_one-button:hover{
+    background-color: #404bbf;
+}
+
+.sect_one-button:focus{
+    background-color: #404bbf;
+}
+
+  /*SECTION 2*/
+
+.h2{
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 24px;
+}
+
+h3{
+    font-size: 20px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.sect_two-ul-title{
+    color:#2e2f42;
+}
+
+.sect_two-text{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/*SECTION3*/
+
+.sect_three{
+    background-color: #F4F4FD;
+}
+
+.sect_three-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight:700 ;
+    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.sect_three-ul-li{
+    background-color: #FFFFFF;
+}
+
+.sect_three-ul-title{
+    font-size: 20px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 500;
+    text-align:center;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.sect_three-ul-text{
+    font-size: 16px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    text-align:center;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+/* sect4*/
+
+.sect_four-title{
+    line-height: 1.11;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.sect_four-title{
+    color: #2E2F42;
+}
+
+.sect_four-ul-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family:"Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.sect_four-ul-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family:"Roboto", sans-serif;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-title{
+    color: #4D5AE5;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.footer-span{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
