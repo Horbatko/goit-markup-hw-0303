@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
     color:#434455;
     font-family: "Roboto", sans-serif;
@@ -5,8 +10,20 @@ body{
     
 }
 
+
+
   /*HEADER*/
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+}
+
+  .header{
+    display:flex;
+    gap: 24px;
+  }
 .nav-title{
     text-decoration: none;
     text-transform: uppercase;
@@ -14,7 +31,7 @@ body{
     color:#2E2F42;
     font-family:"Raleway", sans-serif;  
     font-weight: 700; 
-    color: #4D5AE5;
+    color: #5b64c3;
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
@@ -23,12 +40,32 @@ span{
 }
 
 a{
-    color:#2E2F42;
-    text-decoration: none;
+    display:inline-flex;
+    
 }
 
 ul{
     list-style-type:none;
+    
+}
+
+.header-nav{
+    display:flex;
+    align-items: center;
+    padding:24px 0 32px;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.nav-ul{
+    display: inline-flex;
+    gap: 20px; 
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.hd-ul-li{
+ 
 }
 
 .nav-li-a{
@@ -38,6 +75,7 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    text-decoration: none;
 }
 
 .nav-li-a:hover{
@@ -47,9 +85,12 @@ ul{
 .nav-li-a:focus{
     color: #404bbf 
 }
-
 .addr{
-    font-style: normal;
+    
+}
+.address-ul{
+    display:inline-flex;
+    padding:24px 0 32px;
 }
 
 .addr-li-a{
@@ -60,6 +101,8 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
+    
 }
 
 .addr-li-a:hover{
@@ -74,9 +117,21 @@ ul{
 
 .sect_one{
     background-color: #2E2F42;
+    height: 500px;
+    max-height: 600px;
 }
 
-.sect_one-title{
+.hero-inner{
+    
+}
+
+.sect_one-boxtitle{
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.sect_one-title {
     font-size: 56px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -86,7 +141,19 @@ ul{
     letter-spacing: 0.02em;
 }
 
+
+.sect_one-btn{
+    display: flex;
+    align-items: center;
+    
+}
+
 .sect_one-button{
+    padding: 16px 32px;
+    border-radius: 4px;
+
+    
+
     background-color: #4D5AE5;
     color: #ffff;
     font-size: 16px;
@@ -115,6 +182,15 @@ ul{
     line-height: 24px;
 }
 
+.sect2-ul{
+    display: inline-flex;
+    margin: 90px 100px;
+}
+
+.sect2-li{
+    padding-right: 15px;
+    display: block;
+}
 h3{
     font-size: 20px;
     font-family:"Roboto", sans-serif ;
@@ -142,6 +218,16 @@ h3{
     background-color: #F4F4FD;
 }
 
+.sect_three-two{
+    
+}
+
+.sect-three-title{
+    display: flex;
+    padding: 150px 40% 60px;
+
+}
+
 .sect_three-title{
     text-align: center;
     font-size: 36px;
@@ -154,8 +240,11 @@ h3{
     color: #2E2F42;
 }
 
+.sect-three-box{
+  display: inline-block;
+}
+
 .sect_three-ul-li{
-    background-color: #FFFFFF;
 }
 
 .sect_three-ul-title{
